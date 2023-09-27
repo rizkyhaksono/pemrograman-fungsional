@@ -17,6 +17,8 @@ for item in random_list:
                           "puluhan": puluhan, "satuan": satuan}
     elif isinstance(item, float):
         # Masukkan float ke dalam tuple
+
+        # memakai koma karena concat hanya bisa di tuple, di float tidak bisa
         float_tuple += (item,)
     elif isinstance(item, str):
         # Masukkan string ke dalam list

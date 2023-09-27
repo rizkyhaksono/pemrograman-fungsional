@@ -5,7 +5,7 @@ __copyright__ = "Copyright 2023, Malang"
 
 
 def hitung_nilai_akhir(uts, uas):
-    return 0.4 * uts + 0.6 * uas
+    return (uts + uas) / 2
 
 # Fungsi untuk menghitung semua nilai akhir
 
@@ -30,10 +30,9 @@ def tampilkan_nilai_akhir(data_nilai_akhir):
 
 def main():
     data_mahasiswa = {
-        'Mahasiswa1': {'uts': 80, 'uas': 85},
-        'Mahasiswa2': {'uts': 75, 'uas': 90},
-        'Mahasiswa3': {'uts': 90, 'uas': 70},
-        # Masukkan data mahasiswa lainnya di sini
+        'Rizky': {'uts': 80, 'uas': 85},
+        'Haksono': {'uts': 75, 'uas': 90},
+        'Natee': {'uts': 90, 'uas': 70},
     }
 
     data_nilai_akhir = hitung_semua_nilai_akhir(data_mahasiswa)
