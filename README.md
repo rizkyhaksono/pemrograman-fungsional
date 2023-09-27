@@ -43,11 +43,9 @@ This repository contains the source code of the Functional Programming project u
 
 ### Prerequisites
 
-- Java 8 or higher
 - Python 3.8 or higher
 - Git 2.25.1 or higher
-- Gradle 6.8.3 or higher
-- IDE (IntelliJ IDEA, VSCode, etc.)
+- IDE (VSCode, etc.)
 
 ### Installing
 
@@ -60,37 +58,37 @@ This repository contains the source code of the Functional Programming project u
 
 The project is structured as follows:
 
-- [`src/` contains the source code of the library.](https://github.com/rizkyhaksono/Struktur-Data-Demo/tree/main/src)
-- [`src/praktikum1` contains module 1.](https://github.com/rizkyhaksono/Struktur-Data-Demo/tree/main/src/praktikum1)
-- [`src/praktikum2` contains module 2.](https://github.com/rizkyhaksono/Struktur-Data-Demo/tree/main/src/praktikum2)
+- [`/` contains the source code of the library.](https://github.com/rizkyhaksono/Struktur-Data-Demo/tree/main/src)
+- [`src/praktikum1` contains module 1.](https://github.com/rizkyhaksono/pemrograman-fungsional/tree/main/modul1)
+<!-- - [`src/praktikum2` contains module 2.](https://github.com/rizkyhaksono/Struktur-Data-Demo/tree/main/src/praktikum2)
 - [`src/praktikum3` contains module 3.](https://github.com/rizkyhaksono/Struktur-Data-Demo/tree/main/src/praktikum3)
 - [`src/praktikum4` contains module 4.](https://github.com/rizkyhaksono/Struktur-Data-Demo/tree/main/src/praktikum4)
 - [`src/praktikum5` contains module 5.](https://github.com/rizkyhaksono/Struktur-Data-Demo/tree/main/src/praktikum5)
-- [`src/praktikum6` contains module 6.](https://github.com/rizkyhaksono/Struktur-Data-Demo/tree/main/src/praktikum6)
+- [`src/praktikum6` contains module 6.](https://github.com/rizkyhaksono/Struktur-Data-Demo/tree/main/src/praktikum6) -->
 
 ---
 
 ## Code of Conduct
 
-Please read the [Code of Conduct](https://github.com/rizkyhaksono/Struktur-Data-Demo/blob/main/CODE_OF_CONDUCT.md) before contributing to this project.
+Please read the [Code of Conduct]() before contributing to this project.
 
 ---
 
 ## Security Policy
 
-Please read the [Security Policy](https://github.com/rizkyhaksono/Struktur-Data-Demo/security/policy) before contributing to this project.
+Please read the [Security Policy]() before contributing to this project.
 
 ---
 
 ## Contributing
 
-Please read the [Contributing Guidelines](https://github.com/rizkyhaksono/Struktur-Data-Demo/blob/main/CONTRIBUTING.md) before contributing to this project.
+Please read the [Contributing Guidelines]() before contributing to this project.
 
 ---
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/rizkyhaksono/Struktur-Data-Demo/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE]() file for details.
 
 ---
 

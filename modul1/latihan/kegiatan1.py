@@ -2,52 +2,46 @@ __author__ = "rizkyhaksono"
 __copyright__ = "Copyright 2023, Malang"
 
 
-# # Definisikan pohon ekspresi sebagai fungsi
+# Definisikan pohon ekspresi sebagai fungsi
 def tree(node):
     if type(node) in (int, float):
         return node
     elif type(node) is tuple and len(node) == 3:
         left_operand, operator, right_operand = node
         if operator == '+':
-            return tree(left_operand) + tree(right_operand)
+            return tambah(tree(left_operand), tree(right_operand))
         elif operator == '-':
-            return tree(left_operand) - tree(right_operand)
+            return minus(tree(left_operand), tree(right_operand))
         elif operator == '*':
-            # return tree(left_operand) * tree(right_operand)
-            return mult(node)
+            return mult(tree(left_operand), tree(right_operand))
         elif operator == '/':
-            # return tree(left_operand) / tree(right_operand)
-            return div(node)
+            return div(tree(left_operand), tree(right_operand))
+
+# fungsi pertambahan
+
+
+def tambah(kiri, kanan):
+    return kiri + kanan
+
 
 # fungsi pengurangan
 
 
-def minus(node):
-    if type(node) in (int, float):
-        return node
-    elif type(node) is tuple and len(node) == 3:
-        left_operand, operator, right_operand = node
-        return minus(left_operand) - minus(right_operand)
+def minus(kiri, kanan):
+    return kiri - kanan
 
 # fungsi perkalian
 
 
-def mult(node):
-    if type(node) in (int, float):
-        return node
-    elif type(node) is tuple and len(node) == 3:
-        left_operand, operator, right_operand = node
-        return print((left_operand, operator, right_operand))
+def mult(kiri, kanan):
+    return kiri * kanan
+
 
 # fungsi pembagian
 
 
-def div(node):
-    if type(node) in (int, float):
-        return node
-    elif type(node) is tuple and len(node) == 3:
-        left_operand, operator, right_operand = node
-        return div(left_operand) / div(right_operand)
+def div(kiri, kanan):
+    kiri / kanan
 
 
 # Contoh pohon ekspresi: (2 + 3) * (5 - 1)
