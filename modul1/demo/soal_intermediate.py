@@ -1,10 +1,12 @@
-__author__      = "rizkyhaksono"
-__copyright__   = "Copyright 2023, Malang"
+__author__ = "rizkyhaksono"
+__copyright__ = "Copyright 2023, Malang"
 
 # Inisialisasi data peserta dalam bentuk list
 data_peserta = []
 
 # Fungsi untuk menambahkan data peserta oleh admin
+
+
 def tambah_data_peserta():
     id_peserta = len(data_peserta)  # ID akan diurutkan secara otomatis
     nama = input("Masukkan nama peserta: ")
@@ -14,17 +16,22 @@ def tambah_data_peserta():
     print("Data peserta berhasil ditambahkan.")
 
 # Fungsi untuk mengedit nilai peserta oleh admin
+
+
 def edit_nilai_peserta():
     id_peserta = int(input("Masukkan ID peserta yang ingin diedit nilainya: "))
     if 0 <= id_peserta < len(data_peserta):
         nilai_baru = float(input("Masukkan nilai baru peserta: "))
         hasil_akhir_baru = "Lolos" if nilai_baru >= 75 else "Tidak Lolos"
-        data_peserta[id_peserta] = (data_peserta[id_peserta][0], data_peserta[id_peserta][1], nilai_baru, hasil_akhir_baru)
+        data_peserta[id_peserta] = (
+            data_peserta[id_peserta][0], data_peserta[id_peserta][1], nilai_baru, hasil_akhir_baru)
         print("Nilai peserta berhasil diubah.")
     else:
         print("ID peserta tidak valid.")
 
 # Fungsi untuk peserta melihat nilai dan hasil akhirnya sendiri
+
+
 def lihat_nilai_hasil_peserta(id_peserta):
     if 0 <= id_peserta < len(data_peserta):
         print(f"Nama: {data_peserta[id_peserta][1]}")
@@ -33,6 +40,7 @@ def lihat_nilai_hasil_peserta(id_peserta):
     else:
         print("ID peserta tidak valid.")
 
+
 # Program utama
 while True:
     print("\nMenu:")
@@ -40,9 +48,9 @@ while True:
     print("2. Edit Nilai Peserta (Admin)")
     print("3. Lihat Nilai dan Hasil Akhir (Peserta)")
     print("4. Keluar")
-    
+
     akun = input("Masukkan jenis akun (admin/peserta): ").lower()
-    
+
     if akun == "admin":
         print("\nMenu Admin:")
         print("1. Tambah Data Peserta")
