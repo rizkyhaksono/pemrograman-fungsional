@@ -18,6 +18,7 @@ def tambah_buku():
 def tampilkan_daftar_buku():
     print("\nDaftar Buku Tersedia:")
     for i, buku in enumerate(data_buku):
+        # Formatted string
         print(f"{i + 1}. Judul: {buku[0]}, Penulis: {buku[1]}")
 
 
@@ -29,6 +30,7 @@ def pinjam_buku(username):
         buku_dipinjam = data_buku[pilihan]
         if buku_dipinjam not in peminjaman_buku.values():
             peminjaman_buku[username] = buku_dipinjam
+            # Formatted string
             print(
                 f"Buku '{buku_dipinjam[0]}' berhasil dipinjam oleh {username}.")
         else:
