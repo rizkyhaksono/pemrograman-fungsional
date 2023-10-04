@@ -32,13 +32,16 @@ def main():
     data_mahasiswa = {
         'Rizky': {'uts': 80, 'uas': 85},
         'Haksono': {'uts': 75, 'uas': 90},
-        'Natee': {'uts': 90, 'uas': 70},
+        'Natee': {'uts': 90, 'uas': 10},
     }
 
+    # hitung dulu lalu masuk ke data_nilai_akhir
     data_nilai_akhir = hitung_semua_nilai_akhir(data_mahasiswa)
 
+    # panggil function
     tampilkan_nilai_akhir(data_nilai_akhir)
 
 
+# main
 if __name__ == "__main__":
     main()
