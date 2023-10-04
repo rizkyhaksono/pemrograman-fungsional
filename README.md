@@ -1,23 +1,25 @@
 # Pemrograman Fungsional
 
-<!-- [![GitHub license](https://img.shields.io/github/license/rizkyhaksono/Struktur-Data-Demo)](https://github.com/rizkyhaksono/Struktur-Data-Demo/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/rizkyhaksono/Struktur-Data-Demo)]()
-[![GitHub forks](https://img.shields.io/github/forks/rizkyhaksono/Struktur-Data-Demo)]()
-[![GitHub issues](https://img.shields.io/github/issues/rizkyhaksono/Struktur-Data-Demo)]()
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/rizkyhaksono/Struktur-Data-Demo)]()
-[![GitHub contributors](https://img.shields.io/github/contributors/rizkyhaksono/Struktur-Data-Demo)]()
-[![GitHub last commit](https://img.shields.io/github/last-commit/rizkyhaksono/Struktur-Data-Demo)]()
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rizkyhaksono/Struktur-Data-Demo)]()
-[![GitHub repo size](https://img.shields.io/github/repo-size/rizkyhaksono/Struktur-Data-Demo)]()
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/rizkyhaksono/Struktur-Data-Demo)]()
-[![GitHub language count](https://img.shields.io/github/languages/count/rizkyhaksono/Struktur-Data-Demo)]()
-[![GitHub top language](https://img.shields.io/github/languages/top/rizkyhaksono/Struktur-Data-Demo)]()
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/rizkyhaksono/Struktur-Data-Demo)]()
-[![GitHub all releases](https://img.shields.io/github/downloads/rizkyhaksono/Struktur-Data-Demo/total)]()
-[![GitHub search hit counter](https://img.shields.io/github/search/rizkyhaksono/Struktur-Data-Demo/Struktur-Data-Demo)]()
+https://github.com/rizkyhaksono/pemrograman-fungsional
+
+[![GitHub license](https://img.shields.io/github/license/rizkyhaksono/pemrograman-fungsional)](https://github.com/rizkyhaksono/pemrograman-fungsional/blob/main/README.md)
+[![GitHub stars](https://img.shields.io/github/stars/rizkyhaksono/pemrograman-fungsional)]()
+[![GitHub forks](https://img.shields.io/github/forks/rizkyhaksono/pemrograman-fungsional)]()
+[![GitHub issues](https://img.shields.io/github/issues/rizkyhaksono/pemrograman-fungsional)]()
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/rizkyhaksono/pemrograman-fungsional)]()
+[![GitHub contributors](https://img.shields.io/github/contributors/rizkyhaksono/pemrograman-fungsional)]()
+[![GitHub last commit](https://img.shields.io/github/last-commit/rizkyhaksono/pemrograman-fungsional)]()
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rizkyhaksono/pemrograman-fungsional)]()
+[![GitHub repo size](https://img.shields.io/github/repo-size/rizkyhaksono/pemrograman-fungsional)]()
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/rizkyhaksono/pemrograman-fungsional)]()
+[![GitHub language count](https://img.shields.io/github/languages/count/rizkyhaksono/pemrograman-fungsional)]()
+[![GitHub top language](https://img.shields.io/github/languages/top/rizkyhaksono/pemrograman-fungsional)]()
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/rizkyhaksono/pemrograman-fungsional)]()
+[![GitHub all releases](https://img.shields.io/github/downloads/rizkyhaksono/pemrograman-fungsional/total)]()
+[![GitHub search hit counter](https://img.shields.io/github/search/rizkyhaksono/pemrograman-fungsional/pemrograman-fungsional)]()
 [![GitHub followers](https://img.shields.io/github/followers/rizkyhaksono?style=social)]()
-[![GitHub watchers](https://img.shields.io/github/watchers/rizkyhaksono/Struktur-Data-Demo?style=social)]()
-[![GitHub issues](https://img.shields.io/github/issues/rizkyhaksono/Struktur-Data-Demo?style=social)]() -->
+[![GitHub watchers](https://img.shields.io/github/watchers/rizkyhaksono/pemrograman-fungsional?style=social)]()
+[![GitHub issues](https://img.shields.io/github/issues/rizkyhaksono/pemrograman-fungsional?style=social)]()
 
 This repository contains the source code of the Functional Programming project using Python. Also, made for the Functional Programming course at the University of Muhammadiyah Malang.
 
@@ -60,11 +62,11 @@ This repository contains the source code of the Functional Programming project u
 The project is structured as follows:
 
 - [`modul1` contains module 1.](https://github.com/rizkyhaksono/pemrograman-fungsional/tree/main/modul1)
-- [`modul2` contains module 2.](https://github.com/rizkyhaksono/pemrograman-fungsional/tree/main/modul1)
-- [`modul3` contains module 3.](https://github.com/rizkyhaksono/pemrograman-fungsional/tree/main/modul1)
-- [`modul4` contains module 4.](https://github.com/rizkyhaksono/pemrograman-fungsional/tree/main/modul1)
-- [`modul5` contains module 5.](https://github.com/rizkyhaksono/pemrograman-fungsional/tree/main/modul1)
-- [`modul6` contains module 6.](https://github.com/rizkyhaksono/pemrograman-fungsional/tree/main/modul1)
+- [`modul2` contains module 2.](https://github.com/rizkyhaksono/pemrograman-fungsional/tree/main/modul2)
+- [`modul3` contains module 3.](https://github.com/rizkyhaksono/pemrograman-fungsional/tree/main/modul3)
+- [`modul4` contains module 4.](https://github.com/rizkyhaksono/pemrograman-fungsional/tree/main/modul4)
+- [`modul5` contains module 5.](https://github.com/rizkyhaksono/pemrograman-fungsional/tree/main/modul5)
+- [`modul6` contains module 6.](https://github.com/rizkyhaksono/pemrograman-fungsional/tree/main/modul6)
 
 ---
 
