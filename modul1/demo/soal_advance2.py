@@ -1,13 +1,11 @@
 __author__ = "rizkyhaksono"
 __copyright__ = "Copyright 2023, Malang"
 
-# Inisialisasi data buku dalam bentuk list
+# List
 data_buku = []
 
-# Inisialisasi data peminjaman buku dalam bentuk dictionary
+# Dict
 peminjaman_buku = {}
-
-# Fungsi untuk admin menambahkan buku
 
 
 def tambah_buku():
@@ -16,20 +14,16 @@ def tambah_buku():
     data_buku.append((judul, penulis))
     print("Buku berhasil ditambahkan.")
 
-# Fungsi untuk menampilkan daftar buku yang tersedia
-
 
 def tampilkan_daftar_buku():
     print("\nDaftar Buku Tersedia:")
     for i, buku in enumerate(data_buku):
         print(f"{i + 1}. Judul: {buku[0]}, Penulis: {buku[1]}")
 
-# Fungsi untuk user melakukan peminjaman buku
-
 
 def pinjam_buku(username):
     tampilkan_daftar_buku()
-    pilihan = int(input("\nPilih buku yang ingin dipinjam (nomor): ")) - 1
+    pilihan = int(input("\nPilih buku yang ingin dipinjam [nomor]: ")) - 1
 
     if 0 <= pilihan < len(data_buku):
         buku_dipinjam = data_buku[pilihan]
@@ -42,18 +36,15 @@ def pinjam_buku(username):
     else:
         print("Nomor buku tidak valid.")
 
-# Fungsi untuk user mengembalikan buku
-
 
 def kembalikan_buku(username):
     if username in peminjaman_buku:
         buku_dikembalikan = peminjaman_buku.pop(username)
         print(
+            # Formatted string
             f"Buku '{buku_dikembalikan[0]}' berhasil dikembalikan oleh {username}.")
     else:
         print("Anda tidak memiliki buku yang sedang dipinjam.")
-
-# Fungsi untuk menampilkan menu admin
 
 
 def menu_admin():
@@ -62,7 +53,7 @@ def menu_admin():
         print("1. Tambah Buku")
         print("2. Kembali ke Menu Utama")
 
-        admin_pilihan = input("Pilih menu admin (1/2): ")
+        admin_pilihan = input("Pilih menu admin [1 | 2]: ")
 
         if admin_pilihan == "1":
             tambah_buku()
@@ -70,8 +61,6 @@ def menu_admin():
             break
         else:
             print("Pilihan tidak valid. Silakan coba lagi.")
-
-# Fungsi untuk menampilkan menu user
 
 
 def menu_user(username):
@@ -81,7 +70,7 @@ def menu_user(username):
         print("2. Kembalikan Buku")
         print("3. Kembali ke Menu Utama")
 
-        user_pilihan = input("Pilih menu user (1/2/3): ")
+        user_pilihan = input("Pilih menu user [1 | 2 | 3]: ")
 
         if user_pilihan == "1":
             pinjam_buku(username)
@@ -92,8 +81,6 @@ def menu_user(username):
         else:
             print("Pilihan tidak valid. Silakan coba lagi.")
 
-# Fungsi untuk menampilkan menu utama
-
 
 def menu_utama():
     while True:
@@ -102,7 +89,7 @@ def menu_utama():
         print("2. User")
         print("3. Keluar")
 
-        akun = input("Masukkan jenis akun (admin/user/keluar): ").lower()
+        akun = input("Masukkan jenis akun [admin | user | keluar]: ").lower()
 
         if akun == "admin":
             menu_admin()
@@ -110,10 +97,11 @@ def menu_utama():
             username = input("Masukkan nama pengguna: ")
             menu_user(username)
         elif akun == "keluar":
+            print("Terima kasih sudah memakai program ini")
             break
         else:
             print("Akun tidak valid. Silakan coba lagi.")
 
 
-# Memanggil fungsi menu_utama untuk menjalankan program
+# Main
 menu_utama()
