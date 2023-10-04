@@ -71,13 +71,11 @@ The project is structured as follows:
 ## Code of Conduct
 
 Please read the [Code of Conduct]() before contributing to this project.
-Please read the [Code of Conduct]() before contributing to this project.
 
 ---
 
 ## Security Policy
 
-Please read the [Security Policy]() before contributing to this project.
 Please read the [Security Policy]() before contributing to this project.
 
 ---
@@ -85,13 +83,11 @@ Please read the [Security Policy]() before contributing to this project.
 ## Contributing
 
 Please read the [Contributing Guidelines]() before contributing to this project.
-Please read the [Contributing Guidelines]() before contributing to this project.
 
 ---
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE]() file for details.
 This project is licensed under the MIT License - see the [LICENSE]() file for details.
 
 ---
