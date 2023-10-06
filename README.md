@@ -46,7 +46,6 @@ This repository contains the source code of the Functional Programming project u
 - Python 3.8 or higher
 - Git 2.25.1 or higher
 - IDE (VSCode, etc.)
-- IDE (VSCode, etc.)
 
 ### Installing
 
