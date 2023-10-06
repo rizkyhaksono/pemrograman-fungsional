@@ -1,8 +1,6 @@
 # Pemrograman Fungsional
 
-https://github.com/rizkyhaksono/pemrograman-fungsional
-
-[![GitHub license](https://img.shields.io/github/license/rizkyhaksono/pemrograman-fungsional)](https://github.com/rizkyhaksono/pemrograman-fungsional/blob/main/README.md)
+[![GitHub license](https://img.shields.io/github/license/rizkyhaksono/pemrograman-fungsional)](https://github.com/rizkyhaksono/pemrograman-fungsional/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/rizkyhaksono/pemrograman-fungsional)]()
 [![GitHub forks](https://img.shields.io/github/forks/rizkyhaksono/pemrograman-fungsional)]()
 [![GitHub issues](https://img.shields.io/github/issues/rizkyhaksono/pemrograman-fungsional)]()
