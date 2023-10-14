@@ -39,13 +39,15 @@ def view_expenses_by_date(expenses):
     expenses_on_date = get_expenses_by_date(expenses, date)
     print(f"\nPengeluaran pada tanggal {date}:")
     for expense in expenses_on_date:
-        print(f"{expense['deskripsi']} - Rp {expense['jumlah']}")
+        return (f"{expense['deskripsi']} - Rp {expense['jumlah']}")
 
 def view_expenses_report(expenses):
     print("\nLaporan Pengeluaran Harian:")
     expenses_report = generate_expenses_report(expenses)
+    listReport = []
     for entry in expenses_report:
-        print(entry)
+        listReport.append(entry)
+    return listReport
 
 def display_menu():
     print("\n===== Aplikasi Pencatat Pengeluaran Harian =====")
