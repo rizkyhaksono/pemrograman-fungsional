@@ -3,12 +3,10 @@ __copyright__ = "Copyright 2023, Malang"
 
 import random
 
-
 def create_board(width):
     # Buat papan permainan dengan lebar sesuai input
     board = [[' ' for _ in range(width)] for _ in range(width)]
     return board
-
 
 def generate_random_position(width):
     # Generate posisi acak (baris, kolom) dalam rentang 0 hingga width-1
@@ -16,19 +14,16 @@ def generate_random_position(width):
     col = random.randint(0, width - 1)
     return row, col
 
-
 def place_piece(board, position, symbol):
     # Letakkan simbol pada posisi tertentu di papan permainan
     row, col = position
     board[row][col] = symbol
-
 
 def print_board(board):
     # Cetak papan permainan
     for row in board:
         print(' '.join(row))
     print()
-
 
 def is_valid_move(move, board, position):
     # Cek apakah langkah yang diminta valid
@@ -44,7 +39,6 @@ def is_valid_move(move, board, position):
     else:
         return False
 
-
 def move_piece(board, position, move):
     # Pindahkan bidak sesuai dengan langkah yang diminta
     row, col = position
@@ -58,7 +52,6 @@ def move_piece(board, position, move):
     elif move == 'RIGHT':
         board[row][col], board[row][col +
                                     1] = board[row][col + 1], board[row][col]
-
 
 def main():
     try:
@@ -97,7 +90,6 @@ def main():
             print("Langkah tidak valid. Coba lagi.")
 
     print("Selamat! Anda telah mencapai posisi tujuan (O). Permainan selesai.")
-
 
 if __name__ == "__main__":
     main()
