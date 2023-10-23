@@ -69,19 +69,19 @@ The project is structured as follows:
 
 ## Code of Conduct
 
-Please read the [Code of Conduct]() before contributing to this project.
+Please read the [Code of Conduct](https://github.com/rizkyhaksono/pemrograman-fungsional/blob/main/CODE_OF_CONDUCT.md) before contributing to this project.
 
 ---
 
 ## Security Policy
 
-Please read the [Security Policy]() before contributing to this project.
+Please read the [Security Policy](https://github.com/rizkyhaksono/pemrograman-fungsional/blob/main/CODE_OF_CONDUCT.md) before contributing to this project.
 
 ---
 
 ## Contributing
 
-Please read the [Contributing Guidelines]() before contributing to this project.
+Please read the [Contributing Guidelines](https://github.com/rizkyhaksono/pemrograman-fungsional/blob/main/CONTRIBUTING.md) before contributing to this project.
 
 ---
 
