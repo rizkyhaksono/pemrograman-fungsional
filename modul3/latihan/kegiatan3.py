@@ -1,46 +1,26 @@
 __author__ = "rizkyhaksono"
 __copyright__ = "Copyright 2023, Malang"
 
-# random_list = #seperti pada kegiatan 1 modul 1
 random_list = [105, 3.1, "Hello", 737, "Python", 2.7, "World", 412, 5.5, "AI"]
 
-# Filter untuk memisahkan nilai float, int, dan string
-float_data = list(filter(lambda x: isinstance(x, float), random_list))
-int_data = list(filter(lambda x: isinstance(x, int), random_list))
-string_data = list(filter(lambda x: isinstance(x, str), random_list))
+# Use map to separate integers into tuples of (value, dictionary)
+def separate_int(item):
+    if isinstance(item, int):
+        satuan = item % 10
+        puluhan = (item // 10) % 10
+        ratusan = item // 100
+        return (item, {"ratusan": ratusan, "puluhan": puluhan, "satuan": satuan})
+    else:
+        return item
 
-# Menghitung berapa banyak angka dalam kategori "ratusan," "puluhan," dan "satuan" dan menampilkan dalam format yang diinginkan
-def count_categories(num_list):
-    result = {'ratusan': 0, 'puluhan': 0, 'satuan': 0}
-    for num in num_list:
-        if num >= 100:
-            result['ratusan'] += 1
-        elif num >= 10:
-            result['puluhan'] += 1
-        else:
-            result['satuan'] += 1
-    return result
-def pisahInteger(numm_list):
-  result = {}
-   
-  for int in numm_list:
-    # print("lol")
-    result = []
-    for num in num_list:
-        num / 100
-    return result
-    # print(int) 
-    # for num in num_list:
-    #     if num >= 100:
-    #         result['ratusan'] += 1
-    #     elif num >= 10:
-    #         result['puluhan'] += 1
-    #     else:
-    #         result['satuan'] += 1
-    # return result
+int_list = list(filter(lambda x: isinstance(x, tuple), map(separate_int, random_list)))
 
-# Output
-print("Data Float:", float_data)
-pisahInteger(int_data)
-# print("Data Int:", pisahInteger(int_data))
-print("Data String:", string_data)
+# Use filter to select floats and convert them to a tuple
+float_tuple = tuple(filter(lambda item: isinstance(item, float), random_list))
+
+# Use filter to select strings and keep them in a list
+str_list = list(filter(lambda item: isinstance(item, str), random_list))
+
+print("Data int dalam bentuk list of tuples:", int_list, end='\n\n')
+print("Data float dalam bentuk tuple:", float_tuple, end='\n\n')
+print("Data string dalam bentuk list:", str_list)
