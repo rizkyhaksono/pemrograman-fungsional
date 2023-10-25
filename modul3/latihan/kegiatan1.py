@@ -1,11 +1,10 @@
-__author__ = "rizkyhaksono & rizkyiqbal"
+__author__ = "rizkyhaksono & rizkyiqbal & yovi & gerald & kharismo"
 __copyright__ = "Copyright 2023, CW Coffee"
 
 data = ["3 minggu 3 hari 7 jam 21 menit",
         "5 minggu 5 hari 8 jam 11 menit",
         "7 minggu 1 hari 5 jam 33 menit"]
 
-# Fungsi untuk mengonversi waktu dalam format "minggu hari jam menit" menjadi menit
 def convert_to_minutes(weeks, days, hours, minutes):
     return weeks * 7 * 24 * 60 + days * 24 * 60 + hours * 60 + minutes
 
@@ -29,4 +28,4 @@ for item in data:
     converted_value = curried_converter(weeks)(days)(hours)(minutes)
     outputData.append(converted_value)
 
-print("dataOutput = ",outputData)
+print("dataOutput = ", outputData)
