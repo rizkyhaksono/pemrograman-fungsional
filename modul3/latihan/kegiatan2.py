@@ -5,7 +5,6 @@ data = ["3 minggu 3 hari 7 jam 21 menit",
         "5 minggu 5 hari 8 jam 11 menit",
         "7 minggu 1 hari 5 jam 33 menit"]
 
-# Fungsi curried_converter untuk mengonversi nilai integer
 def curried_converter(weeks):
     def inner_curried(days):
         def inner_inner_curried(hours):
@@ -15,7 +14,6 @@ def curried_converter(weeks):
         return inner_inner_curried
     return inner_curried
 
-# Fungsi untuk memfilter hanya nilai integer dari daftar
 def filter_integer_values(item):
     return list(filter(lambda x: x.isdigit(), item.split()))
 
