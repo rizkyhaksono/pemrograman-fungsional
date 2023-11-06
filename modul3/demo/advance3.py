@@ -1,8 +1,3 @@
-__author__ = "rizkyhaksono"
-__copyright__ = "Copyright 2023, Malang"
-
-from functools import reduce
-
 movies = [
     {"title": "Avengers: Endgame", "year": 2019, "rating": 8.4, "genre": "Action"},
     {"title": "Parasite", "year": 2019, "rating": 8.6, "genre": "Drama"},
@@ -17,6 +12,7 @@ movies = [
     {"title": "The Last Duel", "year": 2021, "rating": 7.0, "genre": "Drama"},
 ]
 
+# Higher-order function untuk menghitung jumlah film berdasarkan genre
 def count_movies_by_genre(movies):
     def count_genre(genre):
         genre_count = len(list(filter(lambda movie: movie["genre"] == genre, movies)))
@@ -29,20 +25,23 @@ def average_rating_by_year(movies):
         year_movies = list(filter(lambda movie: movie["year"] == year, movies))
         if not year_movies:
             return year, 0.0
-        total_rating = reduce(lambda x, y: x + y["rating"], year_movies, 0)
+        total_rating = sum(movie["rating"] for movie in year_movies)
         avg_rating = total_rating / len(year_movies)
         return year, avg_rating
     avg_ratings = dict(map(average_by_year, set(movie["year"] for movie in movies)))
     return avg_ratings
 
+# Higher-order function untuk mencari film dengan rating tertinggi
 def highest_rated_movie(movies):
     return max(movies, key=lambda movie: movie["rating"])
 
+# Higher-order function untuk mencari judul film dan menampilkan informasi rating, tahun rilis, dan genre
 def find_movie_by_title(movies):
     def find_movie(title):
         return next(filter(lambda movie: movie["title"] == title, movies), None)
     return find_movie
 
+# Fungsi menu4
 def menu():
     while True:
         print("\nPilih tugas yang ingin dilakukan:")
@@ -85,4 +84,5 @@ def menu():
         else:
             print("Pilihan tidak valid. Silakan pilih tugas yang sesuai.")
 
+# Main program
 menu()
