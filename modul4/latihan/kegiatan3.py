@@ -1,3 +1,6 @@
+__author__ = "rizkyhaksono"
+__copyright__ = "Copyright 2023, Malang"
+
 # Percobaan 3
 def title_decoration(function):
   def wrapper():

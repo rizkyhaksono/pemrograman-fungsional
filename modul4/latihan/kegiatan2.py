@@ -1,3 +1,6 @@
+__author__ = "rizkyhaksono"
+__copyright__ = "Copyright 2023, Malang"
+
 # Percobaan 2
 def uppercase_decorator(function):
   def wrapper():
