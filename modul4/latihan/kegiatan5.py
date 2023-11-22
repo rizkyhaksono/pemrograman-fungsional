@@ -15,8 +15,8 @@ def line_equation_of(p1, p2):
     return f"y = {M:.2f}x + {C:.2f}"
 
 
-A = point(1, 3)
-B = point(1, 5)
+A = point(3, 2)
+B = point(2, 5)
 
 equation = line_equation_of(A, B)
 

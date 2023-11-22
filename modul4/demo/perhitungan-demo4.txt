@@ -1,0 +1,125 @@
+============================================
+
+Perhitungan Transformasi
+
+[x, y, z] -> [3,2,5]
+
+A[x, y] -> A[3,2]
+
+M = x -> M = 3
+
+tx = y -> tx = 2
+
+ty = z -> ty = 5
+
+sx = z -> sx = 5
+
+sy = x -> sy = 3
+
+============================================
+
+Persamaan Garis Sebelum Transformasi
+
+[y = mx + c]
+
+[2 = (3) (3) + c]
+
+[2 = 9 + c]
+
+[c = 2 - 9]
+
+[c = -7]
+
+[y = x + (-7)]
+
+Jadi persamaan garis transformasi y = x + (-7)
+
+============================================
+
+Diketahui
+- Titik A = (3,2)
+- Gradient (m) = 3
+- Koordinat translasi (tx, ty) = (2,5)
+- Sudut rotasi = 60 derajat
+- Koordinat dilatasi (sx, sy) = (5,3)
+
+============================================
+
+Ditanya
+Persamaan garis setelah transformasi
+
+============================================
+
+Jawab
+1. Titik A (2,3) ditranslasi terhadap (3,5)
+
+[ x' ] = [ x + tx ]
+[ y' ] = [ y + ty ]
+
+[ x' ] = [3 + 2]
+[ x' ] = [2 + 5]
+
+[ x' ] = [ 5 ]
+[ y' ] = [ 7 ]
+
+Jadi A' = (5, 7)
+
+2. Titik A' (5, 7) rotasi sejajar sumbu x positif sebesar 60 derajat
+
+[ x' ] Rotasi 60* [ x ]
+[ y' ] 		  [ y ]
+
+[ x' ] = [ cos(60*) - sin(60*) ] [ x ]
+[ y' ] 	 [ sin(60*) + sin(60*) ] [ y ]
+
+x' = x cos (60*) - y sin (60*)
+y' = x sin (60*) + y cos (60*)
+
+x' = 5 cos(60*) - 7 sin (60*)
+y' = 5 sin(60*) + 7 sin (60*)
+
+x' = 5 (1/2) - 7 (1/2 ^3)
+y' = 5 (1/2 ^3) + 7 (1/2)
+
+x' = 5/2    - 7/2 ^3
+y' = 5/2 ^3 + 7/2
+
+x' = 5 - 7 ^3
+     --------
+	2
+
+y' = 5^3 + 7
+     -------
+	2
+
+x' = -3,56218
+y' = 7,83013
+
+Jadi A'' = (-3,56218, 7,83013)
+
+3. Jadi A'' = (-3,56218, 7,83013) dilatasi dengan koordinat (5,2)
+
+x' = sx . x
+y' = sy . y
+
+x' = 5 . -3,56218
+y' = 2 . 7,83013
+
+x' = -17,8109
+y' = 15,66026
+
+4. Persamaan garis A''' = (-17,8109, 15,66026) dengan gradient 3
+
+[ y = mx + c]
+
+[ 15,66026 = (-17,8109) (3) + c ]
+
+[ 15,66026 = (-53,4327) + c ]
+
+[ c = 53,4327 + 15,66026]
+
+[ c = 69,09296 ]
+
+[ y = x + 69,09296 ]
+
+Jadi persamaan garis setelah transformasi adalah y = x + 69,09296
