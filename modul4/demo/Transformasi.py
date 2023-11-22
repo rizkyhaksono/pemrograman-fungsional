@@ -1,3 +1,6 @@
+__author__ = "rizkyhaksono & larynt"
+__copyright__ = "Copyright 2023, Malang"
+
 import math
 
 
