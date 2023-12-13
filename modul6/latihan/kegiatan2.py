@@ -13,8 +13,8 @@ overlay = Image.open(overlay_path)
 overlay = overlay.convert("RGBA")
 overlay = overlay.resize((100, 100))
 
-x_position = 50
-y_position = 50
+x_position = 200
+y_position = 200
 background.paste(overlay, (x_position, y_position), overlay)
 
 output_dir = os.path.join(current_dir, "img", "output")
