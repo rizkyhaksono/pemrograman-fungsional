@@ -6,7 +6,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 img_path = os.path.join(current_dir, "img", "lucy.jpg")
 img = Image.open(img_path)
 
-font_path = os.path.join(current_dir, "font", "Poppins-Medium.ttf")
+font_path = os.path.join(current_dir, "font", "arial_light.ttf")
 custom_font = ImageFont.truetype(font_path, 24)
 
 img_after = ImageOps.grayscale(img.copy())
