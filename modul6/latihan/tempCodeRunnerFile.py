@@ -1,1 +1,1 @@
-output_path = os.path.join(current_dir, "img", "output_kegiatan1.jpg")
+img_path

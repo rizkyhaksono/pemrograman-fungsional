@@ -1,3 +1,6 @@
+__author__ = "rizkyhaksono"
+__copyright__ = "Copyright 2023, Malang"
+
 from PIL import Image, ImageOps, ImageDraw, ImageFont
 import os
 
